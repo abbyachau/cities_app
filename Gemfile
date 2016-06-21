@@ -9,6 +9,7 @@ gem 'rails_config'
 gem 'pry-rails'
 
 
+
 #Front End Tools
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -30,6 +31,7 @@ group :development, :test do
   gem 'better_errors'
   gem 'annotate'
   gem 'spring'
+  gem 'sqlite3'
 end
 
 group :production do
