@@ -3,7 +3,6 @@ ruby '2.3.0'
 
 # Core Gems
 gem 'rails', '4.2.6'
-gem 'sqlite3'
 gem 'lograge'
 gem 'puma', '~> 3.0'
 gem 'rails_config'
