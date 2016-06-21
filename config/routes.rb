@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
 
-  get 'static_pages/test'
-
+#Custom routes
+get 'home', to: "static_pages#home", as: 'home'
 get 'test', to: "static_pages#test", as: 'test'
+
 #sets home_page
 root 'static_pages#home'
 end
