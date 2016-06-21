@@ -8,8 +8,6 @@ gem 'puma', '~> 3.0'
 gem 'rails_config'
 gem 'pry-rails'
 
-
-
 #Front End Tools
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -35,5 +33,6 @@ group :development, :test do
 end
 
 group :production do
+  gem 'pg'
   gem 'rails_12factor'
 end
