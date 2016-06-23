@@ -1,2 +1,8 @@
 <h1>Disappearing Cities</h1>
-<%=image_tag('golden_ratio.jpg') %> 
+<%=image_tag('golden_ratio.jpg') %>
+
+<%= simple_form_for @cities do |f| %>
+  <%= f.input :username %>
+  <%= f.input :password %>
+  <%= f.button :submit %>
+<% end %>
